@@ -1,20 +1,19 @@
 function mostrar()
 {
-	var preciodecompra;
+	var preciocompra;
 	var descuento;
 	var preciofinal;
-	var precioconiva
+	var precioconiva;
 	
-	preciodecompra = document.getElementById('elNombre').value;
+	preciocompra = prompt("Ingrese el precio de su compra").value;
+	preciocompra= parseint(preciocompra);
+	descuento = (preciocompra* 0,10);
 
+	preciofinal= (preciocompra- descuento);
 	
-	descuento = (preciodecompra*0,10);
+	precioconiva =( preciofinal+ 21/100);
 
-	preciofinal = (Preciodecompra - descuento);
-	
-	precioconiva =( preciofinal+ 0,21);
-
-	alert("tu compra es de "+ preciodecompra +" tenes un descuento del 10% queda en "+ preciofinal + ", mas el iva es "+ precioconiva); 
+	alert("tu compra es de $" + preciocompra+ " tenes un descuento del 10% queda en $"+ preciofinal+", mas el iva es $"+precioconiva);
 
 
 

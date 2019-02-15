@@ -10,11 +10,11 @@ function mostrar()
 	primermascota = prompt("Ingresa el nombre de la primer mascota");
 	segundamascota = prompt("ingresa el nombre de la segunda mascota");
 
-	pesomascota1 = prompt("Ingrese el peso de la primer mascota").value;
-	pesomascota2 = prompt("Ingrese el peso de la segunda mascota").value;
+	pesomascota1 = prompt("Ingrese el peso de la primer mascota");
+	pesomascota2 = prompt("Ingrese el peso de la segunda mascota");
 	
-	pesomascota1= parseint(pesomascota1);
-	pesomascota2= parseint(pesomascota2);
+	pesomascota1= Parseint(pesomascota1);
+	pesomascota2= Parseint(pesomascota2);
 	
 	sumadepeso = (pesomascota1 + pesomascota2);
 

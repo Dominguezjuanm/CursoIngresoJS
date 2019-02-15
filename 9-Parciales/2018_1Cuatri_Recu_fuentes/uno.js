@@ -9,8 +9,8 @@ function mostrar()
 	primermascota = prompt("Ingresa el nombre de la primer mascota");
 	segundamascota = prompt("ingresa el nombre de la segunda mascota");
 
-	pesouno = prompt("Ingrese el peso de la primer mascota");
-	pesodos = prompt("Ingrese el peso de la segunda mascota");
+	pesouno = prompt("Ingrese el peso de la primer mascota").value;
+	pesodos = prompt("Ingrese el peso de la segunda mascota").value;
 
 	pesouno = parseint(pesouno);
 	pesodos = parseint(pesodos);
@@ -23,5 +23,5 @@ function mostrar()
 
 
 	alert("tenes dos mascotas" + primermascota + " y " + segundamascota +" , que pesan "+ pesouno+" y " +  pesodos + "kilos, la suma de los kilos es " +sumadepeso);
-	
+
 }

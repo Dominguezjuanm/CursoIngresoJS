@@ -1,0 +1,36 @@
+	how toferrete iluminacion 
+	
+	if( cant >6)¨{
+		descuento= cant*precio* 0,5;
+
+	}else{
+	if(cant==5){
+		if(marca=="argluz"){
+		descuento=cant*precio*0,4;
+		}else{
+		descuento=cant*precio*0,3
+		}
+	}else{
+	if (cant==4){
+		if(marca=="argluz" ii marca=="felipe"){
+		descuento= cant*precio*0,25;
+
+		}else{
+		descuento=cantidad*precio*0,20;
+
+		}else{
+		if(cant==3){
+			if(marca=="argluz"){
+			descuento=cant*precio*0,15;
+			}else{
+				if(marca== "felipe"){
+				desc=cant*precio*0,10;
+				}else{
+				des=cant*precio*0,5
+				}
+			}
+		}
+		}
+	}
+	}
+	}

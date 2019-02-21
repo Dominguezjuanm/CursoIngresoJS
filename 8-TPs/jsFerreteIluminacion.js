@@ -27,7 +27,7 @@ function CalcularPrecio ()
 
 	if(cantidadlamp>5)
 	{
-		preciofinal=(total - total*50/100);
+		preciofinal=(total - total*0,5);
 		
 	}
 	

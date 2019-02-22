@@ -13,7 +13,7 @@ function mostrar()
 	switch(tipoDePago){
     
     case "visa":
-    total=precio*10/100
+    
     break;
 
     case ""

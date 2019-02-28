@@ -19,7 +19,7 @@ function mostrar()
 	 	nota=parseInt(nota);
 	 	suma+=nota;
 	 } while(isNaN(nota) && (nota<0 || nota>10) );
-	 promedio=suma/contador;
+	 
 }
 
 

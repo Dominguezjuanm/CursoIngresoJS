@@ -12,7 +12,7 @@ function sumar()
 	primerNumero= parseInt(primerNumero);
 	segundoNumero= parseInt(segundoNumero);
 	suma= (primerNumero+segundoNumero);
-	alert("La suma es: "+suma);
+	MostrarMensaje("El suma es: "+suma);//alert("La suma es: "+suma);
 }
 
 function restar()
@@ -25,7 +25,7 @@ function restar()
 	primerNumero= parseInt(primerNumero);
 	segundoNumero= parseInt(segundoNumero);
 	resta= (primerNumero-segundoNumero);
-	alert("La resta es: "+resta);
+	MostrarMensaje("La resta es: "+resta);//alert("La resta es: "+resta);
 }
 
 function multiplicar()
@@ -38,7 +38,7 @@ function multiplicar()
 	primerNumero= parseInt(primerNumero);
 	segundoNumero= parseInt(segundoNumero);
 	producto= (primerNumero*segundoNumero);
-	alert("El producto es: "+producto);
+	MostrarMensaje("El producto es: "+producto);//alert("El producto es: "+producto);
 }
 
 function dividir()
@@ -51,6 +51,9 @@ function dividir()
 	primerNumero= parseInt(primerNumero);
 	segundoNumero= parseInt(segundoNumero);
 	dividendo= (primerNumero/segundoNumero);
-	alert("El dividendo es: "+dividendo);
+	MostrarMensaje("El dividendo es: "+dividendo);//alert("El dividendo es: "+dividendo);
 }
-
+function MostrarMensaje(resultado)
+{
+	alert(resultado);
+}

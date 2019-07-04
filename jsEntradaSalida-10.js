@@ -34,5 +34,10 @@ function mostrarAumento()
 
 	document.getElementById('resultado').value=resultado;
 
-		
+/*sueldo* 1,25
+  (sueldo+sueldo*0,15)
+  sueldo + sueldo *15/100
+  sueldo*(1+15/100)
+  
+		*/
 }

@@ -4,6 +4,43 @@ function mostrar()
 
 	var primerNumero;
 	var segundoNumero;
+	var resultado;
+
+	primerNumero = prompt("Ingrese el primer numero");
+	segundoNumero = prompt("Ingrese el segundo numero");
+
+	if(primerNumero == segundoNumero)
+	{
+		resultado = primerNumero + segundoNumero;
+	}else
+		{
+			primerNumero = parseInt(primerNumero);
+			segundoNumero = parseInt(segundoNumero);
+			if(primerNumero > segundoNumero)
+			{
+				resultado =primerNumero / segundoNumero;
+			}else
+				
+				
+					
+
+					
+				
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+	/*var primerNumero;
+	var segundoNumero;
 	var tercerNumero;
 	var cuartoNumero;
 	var sumaTotal;
@@ -50,6 +87,6 @@ function mostrar()
     	}
     }
     alert("El precio mayor es de $"+numeroMayor+ "y el precio a pagar es de $"+ precioAPagar);
-
+*/
 }
 

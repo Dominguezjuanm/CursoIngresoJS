@@ -4,10 +4,14 @@
 */
 function mostrar()
 { 
+	
 	var nombre;  
 	nombre = prompt("Por favor ingrese nombre");
 	
-	document.getElementById('elnombre') .value = nombre;
-	
+	document.getElementById('elNombre') .value = nombre;
+
+
+	// entrada = algo=document.getElementById('elid').value;
+	// salida document.getElementByid('elid').value;
 }
 

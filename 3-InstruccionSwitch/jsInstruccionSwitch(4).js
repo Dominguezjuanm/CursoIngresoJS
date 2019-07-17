@@ -2,7 +2,7 @@ function mostrar()
 {
 //tomo la edad  
 	var mesDelAño = document.getElementById('mes').value;
-
+  var resultado;
 //alert (mesDelAño);
 	
 	switch (mesDelAño){
@@ -14,11 +14,11 @@ function mostrar()
   case "Octubre":
   case "Diciembre":
 
-	alert("Este mes tiene 31 días.");
+	resultado = ("Este mes tiene 31 días.");
     break;
   
   case "Febrero":
-    alert("Este mes tiene 28 días.");
+    resultado = ("Este mes tiene 28 días.");
     break;
  
     
@@ -26,7 +26,7 @@ function mostrar()
   case "Junio":
   case "Septiembre":
   case "Noviembre":
-    alert("Este mes tiene 30 días.");
+    resultado = ("Este mes tiene 30 días.");
     break;
   
   	

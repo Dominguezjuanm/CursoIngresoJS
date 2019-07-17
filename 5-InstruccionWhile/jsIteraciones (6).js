@@ -1,7 +1,52 @@
 function mostrar()
 {
+	var contador = 0;
+	var laSuma = 0;
+	var numero;
+	var elPromedio;
 
-	var contador=0;
+	while(contador < 5){
+		contador++;
+	}do{
+		numero = prompt("Ingrese un numero");
+		
+	}while(isNaN(numero));
+		laSuma +=numero;
+		document.getElementById('suma').value = laSuma;
+		document.getElementById('promedio').value = laSuma/5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*var contador=0;
 	var acumulador=0;
 	var suma=0;
 	var numero;
@@ -22,7 +67,7 @@ function mostrar()
 	document.getElementById('promedio').value=suma/5;
 		
 	}
-
+	*/
 
 
 

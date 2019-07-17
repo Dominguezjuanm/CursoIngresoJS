@@ -19,20 +19,25 @@ function mostrarAumento()
 
 	document.getElementById('resultado').value=resultado;
 */
- 	var importe;
+ 	var elImporte;
 	var descuento;
-	var resultado;
+	var elResultado;
 
-	importe= document.getElementById('FormIngreso').value;
+	elImporte= document.getElementById('importe').value;
 
-	importe= parseInt(importe);
+	elImporte= parseInt(elImporte);
 	
-	descuento= (importe/0,25);
+	descuento= (elImporte/0,25);
 	descuento=parseInt(descuento);
 	
-	resultado= (importe-descuento);
+	resultado= (elImporte-descuento);
 
 	document.getElementById('resultado').value=resultado;
 
-		
+/*sueldo* 1,25
+  (sueldo+sueldo*0,15)
+  sueldo + sueldo *15/100
+  sueldo*(1+15/100)
+  
+		*/
 }

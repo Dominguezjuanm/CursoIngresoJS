@@ -5,11 +5,10 @@ function mostrar()
 	
 	var nombre;
 	
-	nombre = elNombre .value;
-	nombre = document.getElementById('elNombre');
+	//dato = "anda?";
 	
-	alert(nombre);
-
+	nombre =document.getElementById('elNombre').value;
+	alert(nombre);	
 
 }
 

@@ -2,6 +2,25 @@ function mostrar()
 {
 //tomo la edad  
 	var mesDelAño = document.getElementById('mes').value;
+  var resultado;
+   switch(mesDelAño){
+    case "Julio":
+    case "Agosto":
+      resultado = ("Abrigate que hace frio.");
+      break;
+    case "Septiembre":
+    case "Octubre":
+    case "Noviembre":
+    case "Diciembre":  
+      resultado = ("Ya pasamos el frio, ahora calor!!!.");  
+      break;
+    default:
+      resultado = ("Falta para el invierno.");
+      break;
+    }
+
+
+/*var mesDelAño = document.getElementById('mes').value;
 
 
 	switch (mesDelAño){
@@ -32,8 +51,8 @@ function mostrar()
   default :
     alert("Falta para el invierno.");
     break;	
-  	}
-
+  	}*/
+//se ponen varios case para no poner tantos alert
 
 
 

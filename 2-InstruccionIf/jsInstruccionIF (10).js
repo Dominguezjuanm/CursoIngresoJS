@@ -2,16 +2,16 @@ function mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
 	var nota;
-	var mensaje
+	var resultado;
 
-	nota =Math.floor(Math.random() * 10);
+	nota =Math.floor(Math.random() * 10)+1;
 		if(nota>8){
-			mensaje= " EXCELENTE"
+			resultado = " EXCELENTE"
 		}else{
 			if(nota>3){
-				mensaje = " APROBÒ";
+				resultado = " APROBÒ";
 			}else{
-			mensaje= " Vamos, la proxima se puede"
+			resultado = " Vamos, la proxima se puede"
 			}
 		}
 		alert(nota + mensaje);

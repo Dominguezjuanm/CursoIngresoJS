@@ -7,14 +7,14 @@ function mostrar()
 
 	while(contador < 5){
 		contador++;
-	}do{
-		numero = prompt("Ingrese un numero");
-		
+		do{
+			numero = prompt("Ingrese un numero");
+			numero = parseInt(numero);
 	}while(isNaN(numero));
 		laSuma +=numero;
 		document.getElementById('suma').value = laSuma;
 		document.getElementById('promedio').value = laSuma/5;
-
+	}
 
 
 

@@ -10,45 +10,15 @@ function mostrar()
 		do{
 			numero = prompt("Ingrese un numero");
 			numero = parseInt(numero);
-			respuesta = prompt("Desea ingresar otro numero?");
+			
 		}while(isNaN(numero));
 		laSuma += numero;
-		
+		respuesta = prompt("Desea ingresar otro numero?").toLowerCase();
+		}
 		document.getElementById('suma').value = laSuma;
 		document.getElementById('promedio').value = laSuma / contador;
-		}
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
+	//al estar respuesta dentro del while se hace un bucle.
 	/*var contador=0;
 	var respuesta='si';
 	var numero;

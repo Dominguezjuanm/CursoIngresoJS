@@ -3,7 +3,7 @@ function mostrar()
 	var contador = 0;
 	var laSuma = 0;
 	var numero;
-	var elPromedio;
+	
 
 	while(contador < 5){
 		contador++;

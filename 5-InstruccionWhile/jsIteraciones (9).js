@@ -8,11 +8,13 @@ function mostrar()
 	
 	while(respuesta == "si"){
 			contador++;
-		do{
+		
 			numero = prompt("Ingrese un numero");
 			numero = parseInt(numero);
 			
-		}	while(isNaN(numero));
+			while(isNaN(numero)){
+				numero= prompt("Error, ingrese un numero");
+			}
 	
 	if(contador == 1)
 		{
@@ -35,37 +37,7 @@ function mostrar()
 		
 		document.getElementById('maximo').value = max;
 		document.getElementById('minimo').value = min;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//en vez de usar bandera, usar contador==1 para la primera vez.
 
 /*
 	var contador=0;

@@ -7,11 +7,13 @@ function mostrar()
 
 		while(respuesta == "si"){
 			contador++;
-		do{
+		
 			numero = prompt("Ingrese un numero");
 			numero = parseInt(numero);
 			
-		}while(isNaN(numero));
+		while(isNaN(numero)){
+			numero= prompt("Error, ingrese un numero");
+		}
 		laSuma += numero;
 		respuesta = prompt("Desea ingresar otro numero?").toLowerCase();
 		}

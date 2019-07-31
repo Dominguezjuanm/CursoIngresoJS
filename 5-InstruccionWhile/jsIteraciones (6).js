@@ -1,6 +1,6 @@
 function mostrar()
 {
-	var contador = 0;
+	/*var contador = 0;
 	var laSuma = 0;
 	var numero;
 	
@@ -17,13 +17,25 @@ function mostrar()
 		laSuma +=numero;
 		}
 		document.getElementById('suma').value = laSuma;
-		document.getElementById('promedio').value = laSuma/5;
+		document.getElementById('promedio').value = laSuma/5;*/
 	
+	var contador = 0;
+	var laSuma = 0;
+	var numero;
 
+		do{
+			contador++;
+		
+			numero = prompt("Ingrese un numero");
+			numero = parseInt(numero);
+			while(isNaN(numero)){
+			numero= prompt("Error, ingrese un numero");	
+			}
+			laSuma +=numero;
+		}while(contador < 5);
 
-
-
-
+	document.getElementById('suma').value = laSuma;
+		document.getElementById('promedio').value = laSuma/5;
 
 
 

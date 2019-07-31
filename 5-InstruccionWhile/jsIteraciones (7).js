@@ -1,6 +1,6 @@
 function mostrar()
 {
-	var contador = 0;
+	/*var contador = 0;
 	var respuesta = "si";
 	var laSuma= 0;
 	var numero;
@@ -18,8 +18,45 @@ function mostrar()
 		respuesta = prompt("Desea ingresar otro numero?").toLowerCase();
 		}
 		document.getElementById('suma').value = laSuma;
-		document.getElementById('promedio').value = laSuma / contador;
+		document.getElementById('promedio').value = laSuma / contador;*/
 		
+	var contador = 0;
+	var respuesta = "si";
+	var laSuma = 0;
+	var numero;	 
+
+	do{
+		contador++;
+		
+		numero = prompt("Ingrese un numero");
+		numero = parseInt(numero);
+
+		while(isNaN(numero)){
+			numero= prompt("Error, ingrese un numero");
+			}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	//al estar respuesta dentro del while se hace un bucle.
 	/*var contador=0;
 	var respuesta='si';

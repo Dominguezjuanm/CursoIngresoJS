@@ -18,18 +18,23 @@ function CalcularPrecio ()
  	var preciofinal;
  	
  	cantidadlamp=document.getElementById('Cantidad');
- 	precio= 35;
-	precio=parseInt(precio);
-	cantidadlamp=parseInt(cantidadlamp);
  	
- 	total=(precio *cantidadlamp);
+ 	switch(marca)
+ 	{
+ 		case"ArgentinaLuz":
+ 			if(cantidadlamp > 5){
+ 				total = precio * cantidadlamp * 0,5;
+
+ 			}elseif(cantidadlamp==5){
+ 				total = precio * 0,6;
+ 			}elseif{
+ 				
+ 			}
+
+ 	}
 	
 
-	if(cantidadlamp>5)
-	{
-		preciofinal=(total - total*0,5);
-		
-	}
+	
 	
 	/*switch(marca){
 	case"argluz:

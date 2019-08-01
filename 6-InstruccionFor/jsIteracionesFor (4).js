@@ -1,8 +1,11 @@
 function mostrar()
 {
-	for(i=0; ;i++){
+	for(var i=0; ;i++)
+	{
 		console.log(i);
-		if(i==1000){
+		
+		if(i==1000)
+		{
 			break;
 		}
 	}

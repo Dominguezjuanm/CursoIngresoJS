@@ -7,9 +7,9 @@ function mostrar()
 			repeticiones = parseInt(repeticiones);
 		}
 
-	for(asd = 0;asd < repeticiones;asd++){
+	for(var i = 0; i < repeticiones;i++){
 		document.write("Hola UTN FRA"+"<br>");
-		/*console.log("Hola UTN FRA");*/
+		//console.log("Hola UTN FRA");
 	}
 	//for(asd=cantidad; cantidad>0; asd--)
 
